@@ -7,7 +7,7 @@ The use cases are -
 * you are sharing expensive resources like GPU with others in your team or univ 
 
 ### About hyperML
-hyperML is a radically simplifies on-cloud machine learning for teams/developers. Scale your training jobs right from jupyter labs session or launch a notebook with click of button. Read more details at http://hyperml.com
+hyperML is a radically simplifies on-cloud machine learning for teams/developers. Scale your training jobs right from jupyter labs session or launch a notebook with click of button. Read more details at https://hyperml.com
 
 
 ### Requirements
@@ -16,19 +16,21 @@ hyperML is a radically simplifies on-cloud machine learning for teams/developers
 
 
 ### Install
+```
 jupyter labextension install hyperml-submit-notebooks
+```
 
 ### Get Started
 Setup the following OS environment variables:
 - hyperML: 
-    - HYPERML_SERVER_ENDPOINT 
-    - HYPERML_API_KEY
+    - `HYPERML_SERVER_ENDPOINT` 
+    - `HYPERML_API_KEY`
 - AWS S3: The source Notebook and the processed notebook will be stored on S3 or Minio
-    - HYPERML_S3_ACCESS_KEY 
-    - HYPERML_S3_SECRET_KEY
-    - HYPERML_S3_BUCKET (defaults to hyperML)
-    - HYPERML_S3_URL (e.g. s3-us-west-2.amazonaws.com)
-    - HYPERML_S3_SECURE (default true)
+    - `HYPERML_S3_ACCESS_KEY`
+    - `HYPERML_S3_SECRET_KEY`
+    - `HYPERML_S3_BUCKET` (defaults to hyperML)
+    - `HYPERML_S3_URL` (e.g. s3-us-west-2.amazonaws.com)
+    - `HYPERML_S3_SECURE` (default true)
 
 ### Scheduling notebooks 
 1. Locate **Run in Background** button in notebook toolbar
@@ -52,4 +54,5 @@ Note: You can also open background notebooks from command search 'background-not
 ### Limitations
 Only Dark mode styling as of now 
 
-
+### Issue Reporting
+Welcome any issues. We are a small team to expect a reponse time of 2-3 days
