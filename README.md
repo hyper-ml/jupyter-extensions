@@ -8,10 +8,6 @@ The use cases are -
 * you want to continue working on an approach and try several other approaches at the same time in background
 * you are sharing expensive resources like GPU with others in your team or univ 
 
-### About hyperML
-hyperML is a radically simplifies on-cloud machine learning for teams/developers. Scale your training jobs right from jupyter labs session or launch a notebook with click of button. Read more details at https://www.hyperml.com
-
-
 ### Requirements
 - Jupyter Labs (>2.0.0)
 - hyperML (>0.9.0)
@@ -58,3 +54,7 @@ Only Dark mode styling as of now
 
 ### Issue Reporting
 Welcome any issues. We are a small team to expect a reponse time of 2-3 days
+
+### About hyperML
+hyperML is a radically simplifies on-cloud machine learning for teams/developers. Scale your training jobs right from jupyter labs session or launch a notebook with click of button. Read more details at https://www.hyperml.com
+
