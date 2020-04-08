@@ -1,0 +1,169 @@
+
+.hyperml-text-primary {
+    color: rgba(256, 256, 256, 0.67);
+}
+
+
+.hy-lh-1-half {
+    line-height: 1.5rem;
+}
+
+.hyperml-light-text {
+    color: rgba(256, 256, 256, 0.7);
+}
+
+.hy-text-secondary{
+    color: #577;
+}
+
+.hyperml-no-bg {
+    background-color: transparent;
+}
+
+.hy-flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.hyperml-dark-border {
+    border: 1px solid #444;
+}
+
+.hyml-text-center {
+    text-align: center;
+}
+
+.hyml-row-border-right {
+    border-right: 1px solid #333;
+}
+
+.hy-border-bottom-1{
+    border-bottom: 1px solid #424242;
+}
+
+.hy-button-group {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.hy-button-group button {
+    margin-right: 1em;
+}
+
+.hy-nb {
+    border: none !important;
+}
+
+.hy-half-pad{
+    padding: 0.5rem;
+}
+
+.hyperml-resource-select {
+    font-size: 1em !important;
+}
+
+.hyperml-image-select {
+    font-size: 1em !important;
+}
+
+.hy-button {
+    background-color: #424242 !important;
+    border: 1px solid #444;     
+    color: rgba(256, 256, 256, 0.67);
+    box-sizing: border-box;
+    padding: 0px 6px;
+    margin: 0px;
+    height: 24px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    min-width: unset;
+    min-height: unset;
+}
+
+.hy-button.no-border{
+    border: none;
+}
+
+.hy-button:hover{
+    background-color: #666;
+}
+
+.hy-button-secondary {
+    border: 1px solid #424242; 
+    background: transparent;    
+    color: rgba(256, 256, 256, 0.67);
+    box-sizing: border-box;
+    padding: 0px 6px;
+    margin: 0px;
+    height: 24px;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.hy-button-secondary.no-border{
+    border: none;
+}
+
+.hy-button-secondary:hover{
+    background-color: #666;
+}
+
+.hyml-statuses > div{
+    overflow-y: scroll
+}
+
+.hyml-vertical-scroll {
+    overflow-y: scroll;
+}
+
+
+.hyml-status-row {
+    color: rgba(256, 256, 256, 0.67); /* #dee2e6 */ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #242526;
+    letter-spacing: 0.3px;
+    margin-top: 0.1em;
+    padding: 0.5em 0 0.5em 0; 
+}
+
+.hyml-status-row > * {
+    /*margin-right: 1rem;*/
+    padding: 0.5rem;
+}
+
+.hyml-nb-status-desc{
+    flex-grow: 1;
+    padding-left: 3em;
+}
+
+.hyml-notebook-type {
+    width: 150px;
+}
+
+.hyml-notebook-id {
+    width: 120px;
+}
+.hyml-notebook-status{
+    width: 150px;
+}
+
+.hy-nb-phase-active {
+    background: #f14;
+    padding: 0.2rem;
+}
+
+.hy-nb-phase-complete {
+    padding: 0.2rem;
+}
+
+.hyml-top-pad-half{
+    padding-top: 0.5em;
+} 
