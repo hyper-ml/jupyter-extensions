@@ -1,6 +1,6 @@
 ## Run Jupyter Notebooks in Background
 
-This extension supports running notebooks in the background. 
+This extension supports running and monitoring notebooks in the background from the comfort of Jupyter Labs.
 
 The use cases are - 
 * you want to continue working on an approach and try several other approaches at the same time in background
