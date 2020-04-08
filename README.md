@@ -28,13 +28,25 @@ Setup the following OS environment variables:
 
 ## Scheduling notebooks 
 1. Locate **Run in Background** button in notebook toolbar
+
+![check screens/run-in-background.png](https://github.com/hyper-ml/jupyter-extensions/blob/master/screens/run-in-background.png "Run in background")
+
 2. Enter Resource Plan (must be setup on hyperML) and Container Image
+
+![check screens/choose-params.png](https://github.com/hyper-ml/jupyter-extensions/blob/master/screens/choose-params.png "Choose Parameters")
+
 3. Click OK
 4. Continue working on the current notebook or monitor the background request on **background-notebooks** tab. 
 
 
+![check screens/background-notebooks.png](https://github.com/hyper-ml/jupyter-extensions/blob/master/screens/Background-notebooks.png "Background notebooks")
+
+5. Download and Open the processed notebook 
+
 Note: You can also open background notebooks from command search 'background-notebooks:open'.
 
 ## Limitations
-1. Only Dark mode styling as of now 
-2. 
+Only Dark mode styling as of now 
+
+## About hyperML
+hyperML is a radically simplifies on-cloud machine learning for teams/developers. Scale your training jobs right from jupyter labs session or launch a notebook with click of button. Read more details at http://hyperml.com
