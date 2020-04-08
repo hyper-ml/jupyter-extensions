@@ -7,7 +7,7 @@ The use cases are -
 * you are sharing expensive resources like GPU with others in your team or univ 
 
 ### About hyperML
-hyperML is a radically simplifies on-cloud machine learning for teams/developers. Scale your training jobs right from jupyter labs session or launch a notebook with click of button. Read more details at https://hyperml.com
+hyperML is a radically simplifies on-cloud machine learning for teams/developers. Scale your training jobs right from jupyter labs session or launch a notebook with click of button. Read more details at https://www.hyperml.com
 
 
 ### Requirements
