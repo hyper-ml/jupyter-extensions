@@ -1,20 +1,24 @@
-# Schedule Notebooks in Background
+## Run Jupyter Notebooks in Background
+
 This extension supports running notebooks in the background. 
 
 The use cases are - 
 * you want to continue working on an approach and try several other approaches at the same time in background
 * you are sharing expensive resources like GPU with others in your team or univ 
 
+### About hyperML
+hyperML is a radically simplifies on-cloud machine learning for teams/developers. Scale your training jobs right from jupyter labs session or launch a notebook with click of button. Read more details at http://hyperml.com
 
-## Requirements
+
+### Requirements
 - Jupyter Labs (>2.0.0)
 - hyperML (>0.9.0)
 
 
-## Install
+### Install
 jupyter labextension install hyperml-submit-notebooks
 
-## Get Started
+### Get Started
 Setup the following OS environment variables:
 - hyperML: 
     - HYPERML_SERVER_ENDPOINT 
@@ -26,7 +30,7 @@ Setup the following OS environment variables:
     - HYPERML_S3_URL (e.g. s3-us-west-2.amazonaws.com)
     - HYPERML_S3_SECURE (default true)
 
-## Scheduling notebooks 
+### Scheduling notebooks 
 1. Locate **Run in Background** button in notebook toolbar
 
 ![check screens/run-in-background.png](https://github.com/hyper-ml/jupyter-extensions/blob/master/screens/run-in-background.png "Run in background")
@@ -45,8 +49,7 @@ Setup the following OS environment variables:
 
 Note: You can also open background notebooks from command search 'background-notebooks:open'.
 
-## Limitations
+### Limitations
 Only Dark mode styling as of now 
 
-## About hyperML
-hyperML is a radically simplifies on-cloud machine learning for teams/developers. Scale your training jobs right from jupyter labs session or launch a notebook with click of button. Read more details at http://hyperml.com
+
